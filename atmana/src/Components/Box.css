@@ -1,0 +1,21 @@
+.Box{
+  display: flex;
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.BoxClicked{
+  display: flex;
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: blue !important;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
